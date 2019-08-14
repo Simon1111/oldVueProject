@@ -1,0 +1,4 @@
+// Клики
+export default [
+
+]

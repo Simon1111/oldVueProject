@@ -1,0 +1,4 @@
+// показы
+export default [
+
+]

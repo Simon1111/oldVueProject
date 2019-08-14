@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+.main-page{
+    background-image: url(/images/comm-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.rtb-logo{
+    color:#fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    font-size: 30px;
+    font-weight: bold;
+    &--auth-form{
+        color: #222;
+        text-shadow: 0 0;
+    }
+}
+.btn-small{
+    min-width: 36px !important;
+    max-width: 36px !important;
+}
+.list-ads--span{
+    display: block;
+    font-size: 14px;
+    width: 100%;
+}
+.pointer{
+    cursor: pointer;
+}
+.padding-zero{
+    padding: 0 !important;
+}
+.toolbar-add{
+    .v-toolbar__content{
+        height: auto !important;
+        padding: 0 0 10px;
+        margin: 0;
+    }
+}
+.hr-cust{
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 0;
+    &--par{
+        margin: 16px auto;
+        display: table;
+    }
+    &::before{
+        content: '';
+        border-top: 1px solid rgba(0, 0, 0, 0.12);
+        position: absolute;
+        height: 1px;
+        top: -1px;
+        width: 100vw;
+    }
+}
+table.v-table.v-datatable{
+    thead{
+        th{
+            color: #333333;
+            font-size: 13px;
+        }
+    }
+}
+table.v-table.v-datatable tbody td:first-child, 
+table.v-table.v-datatable tbody td:not(:first-child),
+table.v-table.v-datatable tbody th:first-child, 
+table.v-table.v-datatable tbody th:not(:first-child), 
+table.v-table.v-datatable thead td:first-child, table.v-table.v-datatable thead td:not(:first-child), 
+table.v-table.v-datatable thead th:first-child, table.v-table.v-datatable thead th:not(:first-child){
+    padding: 0 12px;
+}
+.v-datatable--ads{
+    table.v-table.v-datatable{
+        tbody{
+            tr{
+                vertical-align: top;
+                td{
+                    padding-top: 10px;
+                }
+            }
+            .table-hide{
+                tr{
+                    td{
+                        border-bottom: 1px dashed #666;
+                        padding: 0px;
+                        height: auto;
+                        &:last-child{
+                            padding-left: 10px; 
+                        }
+                    }
+                    &:first-child{
+                        td{
+                            border-bottom: none;
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.v-card__text.v-card__text{
+    &--btn{
+        padding-top: 0; 
+    }
+}
+.v-card-text--fitler{
+    padding: 0 16px;
+}
+.v-dialog__activator--full{
+    .v-dialog__activator{
+        display: table;
+        height: 100%;
+    }
+}
+.theme--light.v-subheader{
+    color: rgba(0,0,0,.87) !important;
+}
+.v-toolbar{
+    &__stat{
+        .v-toolbar__content{
+            padding: 0;
+        }
+    }
+}
+.main-app-rtb{
+    padding-top: 60px;
+}
+.v-input__column-field{
+    display: table;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    max-width: 80px;
+    outline: none;
+    border-bottom: 1px solid #000;
+}
