@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "apexcharts": "^2.6.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "luxon": "^1.10.0",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.21",
@@ -34,7 +34,7 @@
     "@vue/cli-plugin-unit-mocha": "^3.3.0",
     "@vue/cli-service": "^3.3.0",
     "@vue/test-utils": "^1.0.0-beta.20",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chai": "^4.1.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
